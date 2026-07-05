@@ -24,6 +24,16 @@ Instead of manually preparing a project plan, users simply describe their projec
 - Recommends tools and technologies
 - Provides daily and weekly recommendations
 
+
+---
+
+## Technologies
+
+- Python
+- Google Gemini API
+- Google GenAI SDK
+- python-dotenv
+
 ---
 
 # Project Architecture
@@ -45,7 +55,20 @@ Instead of manually preparing a project plan, users simply describe their projec
 ```
 
 ---
+##  Project Structure
 
+```
+project-planning-agent/
+│
+├── main.py
+├── planner.py
+├── requirements.txt
+├── .env
+├── .gitignore
+└── README.md
+```
+
+---
 # Project Workflow
 
 1. The user enters a project description.
